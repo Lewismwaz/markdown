@@ -16,7 +16,7 @@ Here are the main concepts needed to get started documenting your ideas using Ma
 ###### Heading 6
 ```
 
-2. Line Breaks
+## 2. Line Breaks
 - Press Space twice, then Enter to force a line break without starting a new paragraph:
 
 ```markdown
