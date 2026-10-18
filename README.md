@@ -364,7 +364,7 @@ Here is a footnote reference[^1].
 ### Powers / Superscripts
 - Use `$number^{power}$ or number<sup>power</sup>`:
 
-- '$3^{x}$`  + `3<sup>y</sup>` for $3^{x}$ + 3<sup>y</sup>
+- '$3^{x}$` + `3<sup>y</sup>` for $3^{x}$ + 3<sup>y</sup>
 
 
 ### Subscripts
@@ -406,9 +406,101 @@ Given the linear equations below, find the exact values for p, x, m, and y: (6 M
 
 ![Practical example](example.png)
 
+### Markdown
+```markdown
+## Solution
+- Let's use $x$ as the subject in the first equation:
+
+$$
+3x = 33 - 4p
+$$
+
+$$
+x = 11 - \frac{4p}{3}
+$$
+
+Substitute $x$ into equation (ii):
+
+$$
+5p - 6\left(11 - \frac{4p}{3}\right) = 2
+$$
+
+Hence,
+
+$$
+5p - 66 + 8p = 2
+$$
+
+Collect like terms together:
+
+$$
+\rightarrow 5p + 8p = 2 + 66
+$$
+
+$$
+\therefore 13p = 68
+$$
+
+$$
+p = \frac{68}{13} = 5\frac{3}{13}
+$$
+
+$$
+x = 11 - \frac{4\left(5\frac{3}{13}\right)}{3}
+$$
+
+$$
+x = 11 - \left(4 \cdot \frac{68}{13}\right)\left(\frac{1}{3}\right)
+$$
+
+$$
+\therefore x = 11 - \frac{272}{39} = \frac{157}{39}
+$$
+
+$$
+\rightarrow m = 13\left(\frac{68}{13}\right)^2 - \frac{13}{3}\left(\frac{157}{39}\right)^2
+$$
+
+$$
+\therefore m = 13\left[\left(\frac{68}{13}\right)^2 - \frac{1}{3}\left(\frac{157}{39}\right)^2\right]
+$$
+
+$$
+m = 285\frac{164}{351}
+$$
+
+Simplify:
+
+$$
+\frac{y}{m - (p + x)} = 351,
+$$
+
+$$
+y = 351\left[m - (p + x)\right]
+$$
+
+$$
+y = 351\left[285\frac{164}{351} - \left(5\frac{3}{13} + 4\frac{1}{39}\right)\right]
+$$
+
+$$
+\therefore y = 351\left(285\frac{164}{351} - 9\frac{10}{39}\right)
+$$
+
+$$
+y = 351\left(130\frac{100}{117}\right)
+$$
+
+$$
+y = 351\left(\frac{15,310}{117}\right)
+$$
+
+$$
+y = 45,930
+$$
+```
 
 ## Solution
-
 - Let's use $x$ as the subject in the first equation:
 
 $$
