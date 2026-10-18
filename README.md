@@ -1,4 +1,5 @@
-Markdown Text Cheat Sheet
+Markdown Text Cheat Sheet  
+
 This PDF file contains most of the concepts needed to get started documenting your ideas using Markdown Language.
 
 1. Blank Lines & Headings
