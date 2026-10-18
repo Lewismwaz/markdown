@@ -266,20 +266,20 @@ def logout_user(request):
 > Warns about risks or negative outcomes of specific actions.
 ```
 
-[!NOTE]
-Useful information that ought to be known.
+> [!NOTE]
+> Useful information that ought to be known.
 
-[!TIP]
-Helpful advice for doing things better or more easily.
+> [!TIP]
+> Helpful advice for doing things better or more easily.
 
-[!IMPORTANT]
-Key information needed to achieve something.
+> [!IMPORTANT]
+> Key information needed to achieve something.
 
-[!WARNING]
-Urgent information that needs immediate attention to avoid problems.
+> [!WARNING]
+> Urgent information that needs immediate attention to avoid problems.
 
-[!CAUTION]
-Warns about risks or negative outcomes of specific actions.
+> [!CAUTION]
+> Warns about risks or negative outcomes of specific actions.
 
 
 ## Tables
