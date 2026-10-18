@@ -1,6 +1,6 @@
 # Markdown Text Cheat Sheet  
 
-This PDF file contains most of the concepts needed to get started documenting your ideas using Markdown Language.
+- Below are most of the concepts needed to get started documenting your ideas using Markdown Language.
 
 1. Blank Lines & Headings
 Add a blank line between content/text blocks. Use hashes (#) for headings:
