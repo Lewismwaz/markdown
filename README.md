@@ -353,72 +353,47 @@ Here is a footnote reference[^1].
 
 ## Math Blocks
 ### Basic Math
-```markdown
 23 + 2 = 25
-23
-+
-2
-=
-25
-23+2=25
-```
+
 
 ### Fractions
-- Use \frac{numerator}{denominator}:
-
-```markdown
+- Use `\frac{numerator}{denominator}`:
 $\frac{1}{4}$
-```
+
 
 ### Powers / Superscripts
-- Use $number^{power}$ or number<sup>power</sup>:
-
-```markdown
+- Use `$number^{power}$ or number<sup>power</sup>`:
 $3^{x}$  and  3<sup>x</sup>
-```
+
 
 ### Subscripts
-- Use $number_{character}$ or number<sub>character</sub>:
-
-```markdown
+- Use `$number_{character}$` or `number<sub>character</sub>`:
 $\log_{2}16 = 4$  and  log<sub>2</sub>16 = 4
-```
+
 
 ### Square Root
-- Use \sqrt{number}:
-
-```markdown
+- Use `\sqrt{number}`:
 $\sqrt{10}$
-```
+
 
 ### Higher Order Roots
-- Use \sqrt[root]{number}:
-
-```markdown
+- Use `\sqrt[root]{number}`:
 $\sqrt[3]{10}$
-```
 ​
  
 ### Recurring Decimals / Overlines
-- Use \overline{number/character}:
-
-```markdown
+- Use `\overline{number/character}`:
 $2.\overline{3}$
-```
  
 
 ### Plus or Minus
-Use \pm:
-
-```markdown
+Use `\pm`:
 $\sqrt[4]{16} = \pm 2$
-```
- =±2
+
 
 ### Quadratic Formula
-```markdown
 $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
-```
+
 
 ### Practical Example
 Given the linear equations below, find the exact values for p, x, m, and y: (6 Marks)
@@ -530,14 +505,15 @@ https://img.shields.io/badge/license-GPL-blue
 https://img.shields.io/badge/version-0.1.0-green
 
 # Table of Contents with Anchor Links
-
 ## Contents
 - [Features](#features)
 - [System Demo](#system-demo)
 - [Architecture](#architecture)
 - [Prerequisites](#prerequisites)
 - [License](#license)
-Collapsible Sections (HTML <details>)
+
+
+## Collapsible Sections (HTML `<details>`)
 Wrap long content in a collapsible block:
 
 ```html
@@ -554,9 +530,11 @@ Hidden content goes here.
 ```
 
 ## Keyboard Shortcuts
-- Use <kbd> tags:
-
+- Use `<kbd>` tags:
+```markdown
 Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.
+```
+
 Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.
 
 ### Directory Tree with text Code Block
