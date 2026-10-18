@@ -1,11 +1,14 @@
-# Markdown Text Cheat Sheet  
+# Markdown Text Cheat Sheet
 
-- Below are most of the concepts needed to get started documenting your ideas using Markdown Language.
+Here are the main concepts needed to get started documenting your ideas using Markdown Language.
 
-1. Blank Lines & Headings
-Add a blank line between content/text blocks. Use hashes (#) for headings:
+---
 
-markdown
+## 1. Blank Lines & Headings
+
+Add a blank line between content/text blocks. Use hashes (`#`) for headings:
+
+```markdown
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -900,5 +903,3 @@ Use backslash \ to escape special characters:
 markdown
 \*Not italic\*  \_Not underlined\_  \# Not a heading
 *Not italic* _Not underlined_ # Not a heading
-
-For more info on Markdown, refer to: GitHub Docs: Basic Formatting Syntax
