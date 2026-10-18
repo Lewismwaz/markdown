@@ -284,7 +284,6 @@ def logout_user(request):
 
 ## Tables
 - Use 3 or more hyphens (---) to create each column header, and pipes (|) to separate each column:
-
 ```markdown
 | Syntax    | Description |
 | --------- | ----------- |
@@ -305,12 +304,12 @@ Right Alignment: ---:
 
 Center Alignment: :---:
 
-```markdown
+
 | Left      | Center    | Right     |
 | :-------- | :-------: | --------: |
 | Header    | Title     | Text      |
 | Paragraph | Text      | Text      |
-```
+
 
 Left	Center	Right
 Header	Title	Text
@@ -358,41 +357,48 @@ Here is a footnote reference[^1].
 
 ### Fractions
 - Use `\frac{numerator}{denominator}`:
-$\frac{1}{4}$
+
+- `$\frac{1}{4}$` for $\frac{1}{4}$
 
 
 ### Powers / Superscripts
 - Use `$number^{power}$ or number<sup>power</sup>`:
-$3^{x}$  and  3<sup>x</sup>
+
+- '$3^{x}$`  + `3<sup>y</sup>` for $3^{x}$ + 3<sup>y</sup>
 
 
 ### Subscripts
 - Use `$number_{character}$` or `number<sub>character</sub>`:
-$\log_{2}16 = 4$  and  log<sub>2</sub>16 = 4
+
+- `$\log_{2}16 = 4$` for $\log_{2}16 = 4$  and  `log<sub>2</sub>16 = 4` for log<sub>2</sub>16 = 4
 
 
 ### Square Root
 - Use `\sqrt{number}`:
-$\sqrt{10}$
+
+- `$\sqrt{10}$` for $\sqrt{10}$
 
 
 ### Higher Order Roots
 - Use `\sqrt[root]{number}`:
-$\sqrt[3]{10}$
+  
+- `$\sqrt[3]{10}$` for $\sqrt[3]{10}$
 ​
  
 ### Recurring Decimals / Overlines
 - Use `\overline{number/character}`:
-$2.\overline{3}$
+
+- `$2.\overline{3}$` for $2.\overline{3}$
  
 
 ### Plus or Minus
 Use `\pm`:
-$\sqrt[4]{16} = \pm 2$
+
+- `$\sqrt[4]{16} = \pm 2$` for $\sqrt[4]{16} = \pm 2$
 
 
 ### Quadratic Formula
-$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+- `$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$` for $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 
 ### Practical Example
