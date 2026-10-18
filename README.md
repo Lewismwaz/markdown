@@ -364,7 +364,8 @@ Here is a footnote reference[^1].
 ### Powers / Superscripts
 - Use `$number^{power}$ or number<sup>power</sup>`:
 
-- '$3^{x}$` + `3<sup>y</sup>` for $3^{x}$ + 3<sup>y</sup>
+- `$3^{x}$` for $3^{x}$
+- `3<sup>y</sup>` for 3<sup>y</sup>
 
 
 ### Subscripts
