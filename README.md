@@ -264,6 +264,8 @@ def logout_user(request):
 
 > [!CAUTION]
 > Warns about risks or negative outcomes of specific actions.
+```
+
 [!NOTE]
 Useful information that ought to be known.
 
@@ -278,7 +280,7 @@ Urgent information that needs immediate attention to avoid problems.
 
 [!CAUTION]
 Warns about risks or negative outcomes of specific actions.
-```
+
 
 ## Tables
 - Use 3 or more hyphens (---) to create each column header, and pipes (|) to separate each column:
